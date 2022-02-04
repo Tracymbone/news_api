@@ -16,7 +16,7 @@ This project is about an application where one can get news headlines from diffe
 
 # Project Link
 
-This url link will take you to my application
+This url link will take you to my application to heroku https://app-tracymbone.herokuapp.com/
 
 # Setup Instruction 
 
