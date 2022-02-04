@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEWS WORDHIPPOS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>news wordhippos</title>
 </head>
 <body>
-  
-  
-    <div>
-      {% for news in news %}
-    <p>{{news.title}}</p>
-    {% endfor %}
+  <div class="jumbotron" style="color:rgba(4, 5, 4, 0.623)">
+
+    <div class="navbar">
+        <ul>
+            <li><a href="/alja">AL-JAZERA-WORLD-NEWS</a></li>
+            <li><a href="/sports">SPORT NEWS</a></li>
+            <li><a href="/entertainment">ENTERTAINMENT NEWS</a></li>
+            <li><a href="/health">HEALTH NEWS</a></li>
+        <li><a href="/business">BUSINESS NEWS</a></li>
+        </ul>
+
+        
     </div>
+ <h1 style="color: rgb(241, 57, 11);">BBC-NEWS</h1> 
+
+
+ <div class="container">
+  {% for news,description,link,  i, time,content in context %}
+ 
+
   
-  </body>
+  <div><h3>News</h3>{{news}}</div>
+  <div><h4>Description</h4>{{description}}</div>
+  <div><h2>Link</h2>{{link}}</div>
+  <div> <img src="{{i}}" alt=""></div>
+  <div><h6>Time</h6>{{time}}</div>
+  <div><h5>Content</h5>{{content}}</div>
+  
+  {% endfor %}
+  </div>    
+</div>  
+
+
+</body>
 </html>
