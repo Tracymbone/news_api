@@ -20,7 +20,7 @@ This url link will take you to my application  https://app-tracymbone.herokuapp.
 
 # Setup Instruction 
 
-This project is also found in other medias for example there is a good tutorial about the same project on youtube.
+This project is also found in other medias for example there is a good tutorial about the same project on youtube and google.
 
 ## Technology Used
 
