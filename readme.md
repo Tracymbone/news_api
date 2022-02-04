@@ -1,6 +1,6 @@
 # Project Name
 
-NEWS
+NEWS-API
 
 # Author Name
 
@@ -16,7 +16,7 @@ This project is about an application where one can get news headlines from diffe
 
 # Project Link
 
-This url link will take you to my application to heroku https://app-tracymbone.herokuapp.com/
+This url link will take you to my application in heroku https://app-tracymbone.herokuapp.com/
 
 # Setup Instruction 
 
